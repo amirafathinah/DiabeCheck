@@ -1,0 +1,6 @@
+{
+  "name": "Prediksi Risiko Diabetes AI",
+  "description": "Aplikasi skrining dan prediksi risiko diabetes berbasis ensemble machine learning dan 50.000+ data klinis pasien.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

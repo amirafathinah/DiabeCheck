@@ -1,0 +1,30 @@
+<!--
+=====================================================================
+KONFIGURASI BACKEND API:
+=====================================================================
+URL backend FastAPI dikonfigurasi melalui konstanta API_BASE_URL di
+src/services/predictionService.ts. Frontend mengirimkan data formulir
+ke endpoint POST /predict secara otomatis.
+=====================================================================
+-->
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediksi Risiko Diabetes AI — Skrining Klinis & Akurat</title>
+    <meta name="description" content="Skrining cerdas risiko diabetes berbasis ensemble machine learning dari 50.000+ data pasien. Dapatkan analisis risiko instan dan rekomendasi gaya hidup." />
+    <meta property="og:title" content="Prediksi Risiko Diabetes AI — Skrining Klinis & Akurat" />
+    <meta property="og:description" content="Skrining cerdas risiko diabetes berbasis ensemble machine learning dari 50.000+ data pasien." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#f8fafc] text-slate-800 antialiased selection:bg-indigo-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
